@@ -1,4 +1,4 @@
-#N canvas -24 25 1460 997 12;
+#N canvas 0 25 1460 997 12;
 #X obj 11 6 loadbang;
 #X obj 12 73 s bela_setDigital;
 #X obj 400 1058 dac~ 1 2;
