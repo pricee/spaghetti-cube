@@ -80,10 +80,6 @@
 #X obj 774 321 ||;
 #X obj 892 319 ||;
 #X obj 1048 316 ||;
-#X msg 325 147 \; recording1 const 0;
-#X msg 323 178 \; recording2 const 0;
-#X msg 323 216 \; recording3 const 0;
-#X msg 328 259 \; recording4 const 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
 #X connect 3 0 15 0;
@@ -105,16 +101,12 @@
 #X connect 13 0 33 0;
 #X connect 13 0 34 0;
 #X connect 13 0 31 0;
-#X connect 15 0 64 0;
 #X connect 15 0 4 0;
 #X connect 15 1 5 0;
-#X connect 15 2 65 0;
 #X connect 15 2 17 0;
 #X connect 15 3 18 0;
-#X connect 15 4 66 0;
 #X connect 15 4 20 0;
 #X connect 15 5 21 0;
-#X connect 15 6 67 0;
 #X connect 15 6 23 0;
 #X connect 15 7 24 0;
 #X connect 16 0 2 1;
